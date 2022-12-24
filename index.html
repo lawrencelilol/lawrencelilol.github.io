@@ -232,6 +232,7 @@
         <h3 class="progress-list__title">general skills</h3>
       </div>
       <div class="col-md-5 mr-auto">
+
         <div class="progress-list__skill">
           <p>
             <span class="progress-list__skill-title">html5</span>
@@ -244,8 +245,17 @@
         </div>
         <div class="progress-list__skill">
           <p>
+            <span class="progress-list__skill-title">Swift</span>
+            <span class="progress-list__skill-value">70%</span>
+          </p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" >
+            </div>
+          </div>
+        <div class="progress-list__skill">
+          <p>
             <span class="progress-list__skill-title">css3</span>
-            <span class="progress-list__skill-value">80%</span>
+            <span class="progress-list__skill-value">70%</span>
           </p>
           <div class="progress">
             <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
@@ -254,8 +264,8 @@
         </div>
         <div class="progress-list__skill">
           <p>
-            <span class="progress-list__skill-title">java script</span>
-            <span class="progress-list__skill-value">90%</span>
+            <span class="progress-list__skill-title">JavaScript</span>
+            <span class="progress-list__skill-value">80%</span>
           </p>
           <div class="progress">
             <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
@@ -274,6 +284,7 @@
         </div> -->
       </div>
       <div class="col-md-5 mr-auto">
+
         <div class="progress-list__skill">
           <p>
             <span class="progress-list__skill-title">Java</span>
@@ -284,6 +295,18 @@
             </div>
           </div>
         </div>
+
+        <div class="progress-list__skill">
+          <p>
+            <span class="progress-list__skill-title">Golang</span>
+            <span class="progress-list__skill-value">80%</span>
+          </p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+            </div>
+          </div>
+        </div>
+
         <div class="progress-list__skill">
           <p>
             <span class="progress-list__skill-title">Python</span>
@@ -338,6 +361,29 @@
         </nav>
       </div>
     </div>
+
+    <div class="portfolio-cards">
+      <div class="row project-card" data-toggle="modal" data-target="#portfolioModal4" data-portfolio-tag="mobile apps">
+        <div class="col-md-6 col-lg-5 project-card__img">
+          <img class="" src="assets/img/img_project4.png" alt="project-img">
+        </div>
+        <div class="col-md-6 col-lg-7 project-card__info">
+          <h3 class="project-card__title">SDK For iOS Developers</h3>
+          <p class="project-card__description">
+            GameStep is a SDK that converts daily footsteps into in-game coins
+          </p>
+          <p class="project-card__stack">Used stack:</p>
+          <ul class="tags">
+            <li>Swift6</li>
+            <li>HealthKit</li>
+            <li>UserDefault</li>
+          </ul>
+          <a href="http://lawrencelilol.com/GameStep/" class="project-card__link">http://lawrencelilol.com/GameStep/</a>
+        </div>
+      </div>
+    
+
+
     <div class="portfolio-cards">
       <div class="row project-card" data-toggle="modal" data-target="#portfolioModal1" data-portfolio-tag="web-sites">
         <div class="col-md-6 col-lg-5 project-card__img">
@@ -361,6 +407,7 @@
           <a href="https://shrouded-woodland-22935.herokuapp.com/campgrounds" class="project-card__link">https://shrouded-woodland-22935.herokuapp.com/campgrounds</a>
         </div>
       </div>
+
       <div class="row project-card"  data-toggle="modal" data-target="#portfolioModal2" data-portfolio-tag="mobile apps">
         <div class="col-md-6 col-lg-5 project-card__img">
           <img class="" src="assets/img/img_project2.jpeg" alt="project-img">
@@ -662,6 +709,53 @@
   </div>
 </div>
 <!-- Portfolio Modal -->
+
+
+<!-- Portfolio Modal -->
+  <div class="modal fade portfolio-modal" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body col-md-11 col-lg-9 ml-auto mr-auto">
+        <p class="portfolio-modal__title">iOS SDK for Game Developers</p>
+        <img class="portfolio-modal__img" src="assets/img/img_project4.png" alt="modal_img">
+        <img class="portfolio-modal__img" src="assets/img/img_project4_1.png" alt="modal_img">
+        <p>
+          Built an iOS SDK using Swift to fetch users steps and to exchange tokens to exempt in-game purchases.
+          <ul>
+            <li>• Designed the low-fidelity wireframes with Balsamiq and high-fidelity with Figma for user interaction testing.</li>
+            <li>• Implemented HealthKit authorizations to grant access to the app to retrieve users health data</li>
+            <li>• Utilized Google Firebase Realtime Database and Authentication to identify users and store users activities</li>
+            <li>• Advanced the Flappy Bird using SpriteKit and integrated the GameStep SDK to help users revive using coins</li>
+          </ul>
+        </p>
+
+        <div class="portfolio-modal__link">
+          <a href="http://lawrencelilol.com/GameStep/">http://lawrencelilol.com/GameStep/</a>
+        </div>
+        <div  class="portfolio-modal__stack">
+          <p class="portfolio-modal__stack-title">Using stack:</p>
+          <ul class="tags">
+            <li>Swift</li>
+            <li>Figma</li>
+            <li>HealthKit</li>
+            <li>SpiritKit</li>
+            <li>Firebase</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal -->
+
+
+
+
 
   <script src="assets/js/jquery-2.2.4.min.js"></script>
   <script src="assets/js/popper.min.js"></script>
